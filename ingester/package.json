@@ -1,0 +1,17 @@
+{
+  "name": "yahoo-ingest",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "bun run src/index.ts",
+    "dev": "bun --watch run src/index.ts"
+  },
+  "dependencies": {
+    "pg": "^8.13.0",
+    "yahoo-finance2": "^3.0.0"
+  },
+  "devDependencies": {
+    "@types/pg": "^8.11.0",
+    "@types/bun": "latest"
+  }
+}
